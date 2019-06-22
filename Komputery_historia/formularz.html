@@ -1,0 +1,60 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Formularz</title>
+
+<body>
+
+<fieldset>
+<legend><strong>Formularz:</strong></legend>
+<form method="post" action="mailto:ak-69@o2.pl" enctype="text/plain">
+<p><strong>Imię: </strong><input type="text" name="Imię" value=" " size="30" maxlength="40"></p>
+<strong>Nazwisko: </strong><input type="text" name="Nazwisko" value=" " size="40" maxlength="40"></p>
+<hr>
+<p><strong>Miasto: </strong><input type="text" name="Miasto" value=" " size="30" maxlength="40"></p>
+<p><strong>e-mail: </strong><input type="text" name="e-mail" value=" " size="40" maxlength="40"></p>
+<hr>
+<p><strong>Jaka jest twoja płeć?</strong></p>
+<p><input type="radio" name="Płeć" value="Kobieta" checked="checked"> Kobieta</p>
+<p><input type="radio" name="Płeć" value="Mężczyzna"> Mężczyzna</p>
+<hr>
+<p><strong>Twoje zainteresowania:</strong></p>
+<p><input type="checkbox" name="Zainteresowania" value="Komputery"> Komputery</p>
+<p><input type="checkbox" name="Zainteresowania" value="Książki"> Książki</p>
+<p><input type="checkbox" name="Zainteresowania" value="Filmy"> Filmy</p>
+<p><input type="checkbox" name="Zainteresowania" value="Sport"> Sport</p>
+<p><input type="checkbox" name="Zainteresowania" value="Moda"> Moda</p>
+<p><strong>Inne:</strong></p>
+<p><textarea  name="Uwagi (zainteresowania)" rows="5" cols="50" style="color: gray; font-style: italic; ">
+tutaj jest miejsce na ich opis (do 1024 znaków)
+</textarea></p>
+<hr>
+<p><strong>Miejsce zamieszkania (wielkość):</strong></p>
+<select name="Miejsce">
+<option selected="selected"> Wieś			
+<option> Miasto do 5 tys.	
+<option> Miasto od 5 tys. do 50 tys.	
+<option> Miasto od 50 tys. do 100 tys.	
+<option> Miasto od 100 tys. do 500 tys.	
+<option> Miasto od 500 tys. do 1 mln.
+<option> Miasto powyżej 1 mln.		
+</select>
+<hr>
+<p><strong>Wpisz swoje uwagi:</strong></p>
+<p><textarea  name="Uwagi (ogólne)" rows="5" cols="50" style="color: gray; font-style: italic; ">
+tutaj jest miejsce na twoje swobodne uwagi (do 1024 znaków)
+</textarea></p>
+</fieldset>
+<input type="submit" value="Wyślij do mnie informacje">
+<input type="reset" value="Usuń wszystkie informacje">
+</form>
+<p></p>
+<form>
+<input type="button" value="Strona główna" onClick="location.href='index.html'">
+</form>
+<p></p>
+
+<body>
+
+</html>

@@ -1,0 +1,196 @@
+﻿<?php
+   // Program zlicza liczbę wyświetleń przez użytkownika danej strony
+   // w czasie działania przeglądarki. Informacja jest zbierana w cookie.
+   if(isSet($_COOKIE['ile2'])) $ile = ++$_COOKIE['ile2'];
+   else $ile = 1;
+   setcookie ('ile2', $ile);
+?>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Language" content="pl" />
+  <meta name="Keywords" content="słowa, kluczowe, oddzielone, przecinkami" />
+  <meta name="Description" content="krótki opis zawarto¶ci strony" />
+  <meta name="Robots" content="ALL" />
+  <meta name="Author" content="flankerds.com" />
+  <link rel="stylesheet" href="style.css" type="text/css" />
+  <title>Komputery</title>
+
+<script language="javascript">
+<!--
+function poczta() {
+	return confirm("Czy masz do mnie uwagi?");
+}
+//-->
+</script>
+
+<script language="javascript">
+<!--
+function ankieta() {
+	return confirm("Czy chcesz wypełnić formularz ankiety?");
+}
+//-->
+</script>
+
+<script language="javascript">
+<!--
+function go() {
+location=document.formularz.menu.options[document.formularz.menu.selectedIndex].value
+}
+-->
+</script>
+
+<script language="javascript">
+<!--
+function goback(){
+alert("Good Bye!");
+history.go(-1);
+}
+function gettheDate() {
+Todays = new Date();
+
+var nazwy_mies = [ 'Styczeń', 'Luty', 'Marzec', 'Kwiecień', 'Maj', 
+    'Czerwiec', 'Lipiec', 'Sierpień', 'Wrzesień', 'Październik', 
+    'Listopad', 'Grudzień' ];
+	
+TheDate = "  " + Todays.getDate() + "  " + nazwy_mies[Todays.getMonth()] + "  " + Todays.getFullYear();
+document.clock.date.value = TheDate;
+}
+var timerID = null;
+var timerRunning = false;
+function stopclock (){
+ if(timerRunning)
+  clearTimeout(timerID);
+	timerRunning = false;
+}
+function startclock () {
+	stopclock();
+	gettheDate()
+	showtime();
+}
+function showtime () {
+	var now = new Date();
+	var hours = now.getHours();
+	var minutes = now.getMinutes();
+	var seconds = now.getSeconds()
+	var timeValue = "" + ((hours >24) ? hours  -0:hours)
+	timeValue += ((minutes < 10) ? ":0" : ":") + minutes
+	timeValue += ((seconds < 10) ? ":0" : ":") + seconds
+ //timeValue += (hours >= 12) ? " P.M." : " A.M."
+	document.clock.face.value = timeValue;
+	timerID = setTimeout("showtime()",1000);
+	timerRunning = true;
+}
+//-->
+</script>
+
+</head>
+
+<body onLoad="startclock()" bgcolor="#FFFFFF">
+
+<table>
+<tr>
+<td><li><img src="obrazki/Artur_dyplom_mniejsze2.jpg" class="alignleft border"></td>
+<!--Ruchomy napis-->
+<td><marquee hspace="120px" scrollamount="6">
+<h3>Moja  strona w HTML, CSS, JavaScript</h3>
+</marquee></td>
+</tr>
+</table>
+
+<div id="kontener">
+<div id="logo"></div>
+<div id="menu">
+ <a href="#">Strona Główna</a>
+ <a href="podstrona.html#budowa"><font size="4">Budowa</font></a>
+ <a href="podstrona.html#oprogramowanie"><font size="4">Programy</font></a>
+ <a href="podstrona.html#pisma"><font size="4">Pisma</font></a>
+</div>
+<div id="tresc">
+<h2>Wstęp</h2>
+       <img src="obrazki/komputer.jpeg" style="float: right" alt="Brak obrazka" hspace="20"/>
+	   <p>Komputery pojawiły się w XX wieku.</p>
+		<p>Komputer (z ang. computer od łac. computare – obliczać, dawne nazwy: mózg elektronowy, elektroniczna maszyna cyfrowa, maszyna matematyczna), to urządzenie elektroniczne służące do przetwarzania wszelkich informacji, które da się zapisać w formie ciągu cyfr albo sygnału ciągłego.</p>
+	   
+<h2>Komputery, a inne maszyny liczące</h2>
+       <p>Komputer od tradycyjnego kalkulatora odróżnia zdolność wykonywania wielokrotnie, automatycznie powtarzanych obliczeń, wg algorytmicznego wzorca zwanego programem, gdy tymczasem kalkulator może zwykle wykonywać tylko pojedyncze działania. Kalkulatory służą  do obliczeń matematycznych, podczas gdy komputer jest urządzeniem wielofunkcyjnym.</p>
+	<p>Warto  pamiętać, że prawzorem komputera była maszyna Turinga, którą można by wykonać w całości z części mechanicznych, a pierwsze urządzenia ułatwiające obliczenia były znane w starożytności, np. abakus z 440 p.n.e..</p>
+	<p>Właściwie wszystkie współczesne komputery to maszyny elektroniczne. Próby budowania komputerów optycznych (wykorzystujących przełączniki optyczne), optoelektronicznych (kombinowane z elementów optycznych i elektronicznych), biologicznych (wykorzystujące wypreparowane komórki nerwowe) czy molekularnych (wykorzystujące jako bramki logiczne pojedyncze cząsteczki) są jeszcze w powijakach i do ich praktycznego zastosowania jest wciąż długa droga. Innym rodzajem komputera jest komputer kwantowy, którego układ przetwarzający dane wykorzystuje prawa mechaniki kwantowej.</p>
+	<h2>Ankieta</h2>
+<p></p>
+	<p>   Należy wypełnić formularz ankiety, który pojawi się po naciśnięciu poniższego przycisku.</p>
+	<form>
+	<input type="button" value="Formularz" onClick="location.href='formularz.html'">
+	</form>
+<p></p>
+	
+<h2>Adres korespondencyjny</h2>
+       <!--<p>Wszelkie uwagi proszę przesyłać na adres e-mail: <a href=mailto:"artur-karpinski@wp.pl" onClick="return poczta()">artur-karpinski@wp.pl</a></p>-->
+	   
+	   <p>Wszelkie uwagi do mnie proszę przesyłać w oknie poczty po naciśnięciu poniższego przycisku.</p>
+	   
+	   <form method="post" action="mailto:ak-69@o2.pl" enctype="text/plain">
+					<input type="submit" value="Wyślij wiadomość">
+				</form>
+</div>
+</div>
+
+<table>
+<tr>
+<td>
+<form name="clock" onSubmit="0">
+<div>
+<input type="text" style="text-align: center;" name="date" size=19 value="">
+<input type="text" style="text-align: center;" name="face" size=9 value="">
+</div></form>
+</td>
+</tr>
+</table>
+
+<div id="stopka">
+<div id="copyright"><b><i>Copyright by Artur Karpiński</i></b></div>
+</div>  
+
+<script language="javascript">
+<!--
+function initArray()
+{
+this.length = initArray.arguments.length
+for (var i=0;i<this.length;i++)
+this[i+1] = initArray.arguments[i]
+}
+
+var DOWArray = new initArray("niedziela", "poniedziałek", "wtorek", "środa",
+"czwartek", "piątek", "sobota");
+var MOYArray = new initArray("stycznia", "lutego", "marca", "kwietnia", "maja",
+"czerwca", "lipca", "sierpnia","września", "października", "listopada",
+"grudnia");
+var LastModDate = new Date(document.lastModified);
+
+var i;
+
+document.write("<b>Ostatnia aktualizacja strony</b>:<br>");
+document.write(DOWArray[(LastModDate.getDay()+1)],", ");
+document.write(LastModDate.getDate()," ");
+document.write(MOYArray[(LastModDate.getMonth()+1)]," ");
+
+i=LastModDate.getYear();
+if (i<1900) {i=i+1900;}
+document.write(i,"");
+//-->
+</script>
+
+<div>
+    <?php
+      print "Stronę odwiedziłeś ostatnio ".$ile." razy.";
+    ?>
+  </div>
+  
+</body>
+
+</html>

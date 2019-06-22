@@ -1,0 +1,14 @@
+span {
+color:red;
+font-size: 16pt;
+}
+span.czcionka {
+font-family: courier new;
+font-size: 12pt;
+color: green;
+}
+span.komputery {
+font-family: arial;
+font-size: 12pt;
+color: blue;
+}
