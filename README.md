@@ -6,9 +6,9 @@ Warto wiedzieć coś o historii, budowie komputera zanim wybierzemy się np. na 
 
 ### Historia ery komputerowej
 
-1. Budowa
+1. Budowa i nowe technologie.
 
-2. Programy
+2. Programy komputerowe.
 
-3. Pisma
+3. Pisma informatyczne.
 
