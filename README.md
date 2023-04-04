@@ -1,4 +1,4 @@
-Strona w formie własnoręcznego kodu w HTML, CSS, JavaScript.
+#### Strona w formie własnoręcznego kodu w HTML, CSS, JavaScript.
 Poza stroną główną zawiera również m.in. formularz, obrazy i tekst zmieniane dynamicznie. :smile:
 
 ## Komputery
