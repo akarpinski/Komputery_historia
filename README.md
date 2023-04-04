@@ -1,8 +1,10 @@
 #### Strona w formie własnoręcznego kodu w HTML, CSS, JavaScript.
-Poza stroną główną zawiera również m.in. formularz, obrazy i tekst zmieniane dynamicznie. :smile:
+Poza stroną główną zawiera również m.in. formularz, obrazy i tekst zmieniane dynamicznie.
+Elementy zawierające kod w JavaScript znajdują się w plikach HTML. 
 
 ## Komputery
-Warto wiedzieć coś o historii, budowie komputera zanim wybierzemy się np. na studia informatyczne.
+Aby zrozumieć czym są komputer, warto wiedzieć coś o historii, budowie komputera, trochę o nich poczytać.
+Zwłaszcza jeśli planujemy zanim wybrać się np. na studia informatyczne.
 
 ### Historia ery komputerowej
 
