@@ -1,12 +1,12 @@
 ## Komputery
 <p> Aby zrozumieć czym są komputer, warto wiedzieć coś o historii, budowie komputera, trochę o nich poczytać. </p>
-<p> Zwłaszcza jeśli planujemy zanim wybrać się np. na studia informatyczne. </p>
+<p> Zwłaszcza jeśli planujemy wybrać się np. na studia informatyczne. </p>
 
 ---
 
 ### Historia ery komputerowej
 
-1. Budowa i nowe technologie.
+1. Budowa komputera, podzespoły.
 
 2. Programy komputerowe.
 
