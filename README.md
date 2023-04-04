@@ -1,6 +1,6 @@
 #### Strona w formie własnoręcznego kodu w HTML, CSS, JavaScript.
-Poza stroną główną zawiera również m.in. formularz, obrazy i tekst zmieniane dynamicznie.
-Elementy zawierające kod w JavaScript znajdują się w plikach HTML. 
+<p> Poza stroną główną zawiera również m.in. formularz, obrazy i tekst zmieniane dynamicznie. </p>
+<p> Elementy zawierające kod w JavaScript znajdują się w plikach HTML. </p>
 
 ## Komputery
 Aby zrozumieć czym są komputer, warto wiedzieć coś o historii, budowie komputera, trochę o nich poczytać.
