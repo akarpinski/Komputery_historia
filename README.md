@@ -1,5 +1,5 @@
 ## Komputery
-<p> Aby zrozumieć czym są komputer, warto wiedzieć coś o historii, budowie komputera, trochę o nich poczytać. </p>
+<p> Aby zrozumieć czym są komputery, warto wiedzieć coś o historii, budowie komputera, trochę o nich poczytać. </p>
 <p> Zwłaszcza jeśli planujemy wybrać się np. na studia informatyczne. </p>
 
 ---
